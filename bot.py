@@ -85,7 +85,7 @@ def handle_message(update: Update, context: CallbackContext):
                 f"📏 Пробіг: {d['mileage']}\n\n"
                 f"🧾 {d['description']}\n\n"
                 f"📞 <b>Телефон:</b> "
-                <a href='tel:+48787878036'>+48 787 878 036</a>"
+                f"<a href='tel:{PHONE_NUMBER}'>{PHONE_NUMBER}</a>"
             )
 
             media = []
